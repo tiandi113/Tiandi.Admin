@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiandi.Admin", "Tiandi.Admin\Tiandi.Admin.csproj", "{F207018B-DE96-4119-B88B-CF982D80490F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiandi.Api", "Tiandi.Admin\Tiandi.Api.csproj", "{F207018B-DE96-4119-B88B-CF982D80490F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiandi.Common", "Tiandi.Common\Tiandi.Common.csproj", "{065FE215-883C-4473-AFE2-D131B6178F66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiandi.Common", "Tiandi.Common\Tiandi.Common.csproj", "{065FE215-883C-4473-AFE2-D131B6178F66}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiandi.Entity", "Tiandi.Entity\Tiandi.Entity.csproj", "{6C32402D-C44D-45C1-BE9B-DC8C2232C143}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tiandi.Service", "Tiandi.Service\Tiandi.Service.csproj", "{02C28F7F-355C-48F8-B14A-A491ED929158}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiandi.Dao", "Tiandi.Dao\Tiandi.Dao.csproj", "{51E95EEC-1295-4A52-8388-0639B4207DA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{065FE215-883C-4473-AFE2-D131B6178F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{065FE215-883C-4473-AFE2-D131B6178F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{065FE215-883C-4473-AFE2-D131B6178F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C32402D-C44D-45C1-BE9B-DC8C2232C143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C32402D-C44D-45C1-BE9B-DC8C2232C143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C32402D-C44D-45C1-BE9B-DC8C2232C143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C32402D-C44D-45C1-BE9B-DC8C2232C143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C28F7F-355C-48F8-B14A-A491ED929158}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C28F7F-355C-48F8-B14A-A491ED929158}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C28F7F-355C-48F8-B14A-A491ED929158}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C28F7F-355C-48F8-B14A-A491ED929158}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51E95EEC-1295-4A52-8388-0639B4207DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51E95EEC-1295-4A52-8388-0639B4207DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51E95EEC-1295-4A52-8388-0639B4207DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51E95EEC-1295-4A52-8388-0639B4207DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

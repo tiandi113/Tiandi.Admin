@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Tiandi.Admin</name>
+        <name>Tiandi.Api</name>
     </assembly>
     <members>
         <member name="T:Tiandi.Admin.Controllers.TestController">

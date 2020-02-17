@@ -2,10 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Tiandi.Api</AssemblyName>
+    <RootNamespace>Tiandi.Api</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DocumentationFile>F:\开源项目\Tiandi.Simple.Admin\Tiandi.Admin\Tiandi.Admin\ApiHelp.xml</DocumentationFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <NoWarn>1701;1702;1591;</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
