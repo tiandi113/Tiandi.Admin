@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tiandi.Admin</name>
+    </assembly>
+    <members>
+        <member name="T:Tiandi.Admin.Controllers.TestController">
+            <summary>
+            测试
+            </summary>
+        </member>
+        <member name="M:Tiandi.Admin.Controllers.TestController.Get">
+            <summary>
+            get
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Tiandi.Admin.Controllers.TestController.Get(System.Int32)">
+            <summary>
+            getbyid
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Tiandi.Admin.Controllers.TestController.Post(System.String)">
+            <summary>
+            Post
+            </summary>
+            <param name="value"></param>
+        </member>
+    </members>
+</doc>
